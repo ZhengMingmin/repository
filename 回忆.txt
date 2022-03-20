@@ -1,0 +1,31 @@
+git add
+git commit
+git log
+git relog
+git checkout -- file.txt
+
+git reset head
+
+git status
+
+
+回忆
+首先登录GitHub 创建一个新的库 repository
+在account添加一个公匙，说明此后允许提交这个公匙电脑推送东西到GitHub这个远程库
+然后在本地关联远程库的时候 需要输入命令：git remote add origin  git@github.com:ZhengMingmin/repository.git
+这个时候本地库就和远程库关联了起来，这里的origin是给远程库指定的一个名字
+关联完远程库之后本地如果提交，可以选择使用命令git push origin master
+如何解除本地与远程仓库的联系？
+在本地选择 git remote rm origin
+
+
+从远程库clone下来到本地
+git clone git@githhub.com:ZhengMingmin/地址.git
+
+切换分支 git checkout <branch>
+撤销修改 git checkout file
+
+创建分支 git branch
+gti merge 
+git branch -d name
+
