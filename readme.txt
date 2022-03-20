@@ -7,3 +7,5 @@ Git tracks changes of files.
 Creating a new branch is quick and simple.
 
 测试在本地库能否拉取远程库-成功
+
+通过SoruceTree从远程库推送到本地库测试
